@@ -67,8 +67,6 @@ const LoginScreen = () => {
   useEffect(() => {
     if (otp == "1234") {
       checkSignIn();
-    } else {
-      setErr("Please enter OTP");
     }
   }, [data]);
 
